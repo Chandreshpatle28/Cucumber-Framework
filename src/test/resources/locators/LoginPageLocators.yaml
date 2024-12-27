@@ -9,5 +9,19 @@ login_button:
   value: "//input[@type='submit']"
 homePageTitle:
   type: "xpath"
-  value: "//div[@class='app_logo']"
-  
+  value: "//div[@class='app_logo']" 
+errorMessageLogin:
+  type: "xpath"
+  value: "//h3//button[@class='error-button']"
+applogo:
+  type: "xpath"
+  value: "//div[@class='login_logo']"
+usernamelabel:
+  type: "xpath"
+  value: "//input[@id='user-name']"
+usernamefield:
+  type: "id"
+  value: "user-name"
+passwordfield:
+  type: "xpath"
+  value: "//input[@id='password']"

@@ -1,0 +1,3 @@
+filter:
+  type: "xpath"
+  value: "//select[@class='product_sort_container']"
